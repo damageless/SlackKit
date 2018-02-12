@@ -119,8 +119,4 @@ public final class SlackKit: RTMAdapter {
             callback.1(event, clientConnection)
         }
     }
-    
-    public func connectionClosed(with error: Error, instance: SKRTMAPI.SKRTMAPI) {
-        
-    }
 }
